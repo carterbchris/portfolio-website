@@ -142,6 +142,7 @@
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
+												<input type="text" name="_honey" style="display:none">
 												<input type="text" name="name" id="name" required/>
 											</div>
 											<div class="field half">
@@ -152,11 +153,13 @@
 												<label for="message">Message</label>
 												<textarea name="message" id="message" rows="5" required></textarea>
 											</div>
-											<input type="hidden" name="_next" value="https://codewithchris.netlify.app/">
+											<input type="hidden" name="_captcha" value="false">
+											<input type="hidden" name="_next" value="https://codewithchris.netlify.app/thankyou.html">
 										</div>
 										<ul class="actions">
 											<li><button type="submit" class="button submit">Send Message</li>
 										</ul>
+										<div class></div>
 									</form>
 								</section>
 								<section>
